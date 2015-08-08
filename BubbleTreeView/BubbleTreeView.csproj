@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F768837-4652-4048-ADFF-9241295DEE49}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BubbleTreeView</RootNamespace>
+    <AssemblyName>BubbleTreeView</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Home\Index.html" />
+    <Content Include="js\bubbletree.cofog.js" />
+    <Content Include="js\bubbletree.js" />
+    <Content Include="svg\admin-culture.svg" />
+    <Content Include="svg\admin-order-safety.svg" />
+    <Content Include="svg\admin.svg" />
+    <Content Include="svg\africa.svg" />
+    <Content Include="svg\aid-developing-countries.svg" />
+    <Content Include="svg\aid.svg" />
+    <Content Include="svg\airplane.svg" />
+    <Content Include="svg\ambulance.svg" />
+    <Content Include="svg\anchor.svg" />
+    <Content Include="svg\asia.svg" />
+    <Content Include="svg\books.svg" />
+    <Content Include="svg\car.svg" />
+    <Content Include="svg\civil-defence.svg" />
+    <Content Include="svg\coal.svg" />
+    <Content Include="svg\communication.svg" />
+    <Content Include="svg\community.svg" />
+    <Content Include="svg\construction.svg" />
+    <Content Include="svg\courts.svg" />
+    <Content Include="svg\culture.svg" />
+    <Content Include="svg\defence-admin.svg" />
+    <Content Include="svg\defence-research.svg" />
+    <Content Include="svg\defence.svg" />
+    <Content Include="svg\dental.svg" />
+    <Content Include="svg\dollar.svg" />
+    <Content Include="svg\EC.svg" />
+    <Content Include="svg\economic-aid.svg" />
+    <Content Include="svg\education.svg" />
+    <Content Include="svg\electricity.svg" />
+    <Content Include="svg\energy.svg" />
+    <Content Include="svg\energy2.svg" />
+    <Content Include="svg\environment-admin.svg" />
+    <Content Include="svg\environment.svg" />
+    <Content Include="svg\euro.svg" />
+    <Content Include="svg\family.svg" />
+    <Content Include="svg\family2.svg" />
+    <Content Include="svg\farms.svg" />
+    <Content Include="svg\financial-admin.svg" />
+    <Content Include="svg\fire-brigade.svg" />
+    <Content Include="svg\fishing.svg" />
+    <Content Include="svg\foreign-military-aid.svg" />
+    <Content Include="svg\forest.svg" />
+    <Content Include="svg\fuel.svg" />
+    <Content Include="svg\government-uk.svg" />
+    <Content Include="svg\health.svg" />
+    <Content Include="svg\helping-others.svg" />
+    <Content Include="svg\hospital-specialized.svg" />
+    <Content Include="svg\hospital.svg" />
+    <Content Include="svg\housing.svg" />
+    <Content Include="svg\human-resources.svg" />
+    <Content Include="svg\island.svg" />
+    <Content Include="svg\labour.svg" />
+    <Content Include="svg\legislative.svg" />
+    <Content Include="svg\manufactoring-construction.svg" />
+    <Content Include="svg\media.svg" />
+    <Content Include="svg\medical-supplies.svg" />
+    <Content Include="svg\microscope.svg" />
+    <Content Include="svg\military.svg" />
+    <Content Include="svg\misc-services.svg" />
+    <Content Include="svg\money.svg" />
+    <Content Include="svg\nuclear.svg" />
+    <Content Include="svg\old-age.svg" />
+    <Content Include="svg\order-safety.svg" />
+    <Content Include="svg\other-medical.svg" />
+    <Content Include="svg\our-streets.svg" />
+    <Content Include="svg\petrol.svg" />
+    <Content Include="svg\pig.svg" />
+    <Content Include="svg\planning.svg" />
+    <Content Include="svg\police.svg" />
+    <Content Include="svg\police2.svg" />
+    <Content Include="svg\pollution.svg" />
+    <Content Include="svg\post-secondary.svg" />
+    <Content Include="svg\pound.svg" />
+    <Content Include="svg\pound2.svg" />
+    <Content Include="svg\pre-school.svg" />
+    <Content Include="svg\primary.svg" />
+    <Content Include="svg\prisons.svg" />
+    <Content Include="svg\public-debt.svg" />
+    <Content Include="svg\railways.svg" />
+    <Content Include="svg\rd-order-safety.svg" />
+    <Content Include="svg\research.svg" />
+    <Content Include="svg\satellite-dish.svg" />
+    <Content Include="svg\schools.svg" />
+    <Content Include="svg\secondary-lower.svg" />
+    <Content Include="svg\secondary-upper.svg" />
+    <Content Include="svg\social-systems.svg" />
+    <Content Include="svg\sports.svg" />
+    <Content Include="svg\street-lights.svg" />
+    <Content Include="svg\toilet.svg" />
+    <Content Include="svg\transport.svg" />
+    <Content Include="svg\tree.svg" />
+    <Content Include="svg\unemployment.svg" />
+    <Content Include="svg\unknown.svg" />
+    <Content Include="svg\waste.svg" />
+    <Content Include="svg\water.svg" />
+    <Content Include="svg\wheelchair.svg" />
+    <Content Include="svg\wind.svg" />
+    <Content Include="svg\worldmap.svg" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58971</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58886/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

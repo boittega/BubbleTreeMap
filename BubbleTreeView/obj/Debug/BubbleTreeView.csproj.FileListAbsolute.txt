@@ -1,0 +1,6 @@
+c:\users\rafael\documents\visual studio 2013\Projects\BubbleTreeView\BubbleTreeView\bin\BubbleTreeView.dll.config
+c:\users\rafael\documents\visual studio 2013\Projects\BubbleTreeView\BubbleTreeView\bin\BubbleTreeView.dll
+c:\users\rafael\documents\visual studio 2013\Projects\BubbleTreeView\BubbleTreeView\bin\BubbleTreeView.pdb
+c:\users\rafael\documents\visual studio 2013\Projects\BubbleTreeView\BubbleTreeView\obj\Debug\BubbleTreeView.csprojResolveAssemblyReference.cache
+c:\users\rafael\documents\visual studio 2013\Projects\BubbleTreeView\BubbleTreeView\obj\Debug\BubbleTreeView.dll
+c:\users\rafael\documents\visual studio 2013\Projects\BubbleTreeView\BubbleTreeView\obj\Debug\BubbleTreeView.pdb
